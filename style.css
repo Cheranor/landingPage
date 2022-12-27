@@ -22,6 +22,15 @@ a {
     text-decoration: none;
 }
 
+img {
+    width: 100%;
+    height: auto;
+
+    border-radius: 10%;
+
+    margin-bottom: 12px;
+}
+
 button {
     background-color: #3882f6;
     border-color: #e5e7eb;
@@ -72,6 +81,32 @@ button {
     color: #e5e7eb;
 }
 
+.information {
+    display: flex;
+    flex-wrap: wrap;
+
+    text-align: center;
+
+    margin: 24px;
+}
+
+.infotitle {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+
+    margin-top: 36px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    width: 200px;
+
+    margin: 12px;
+}
+
 .dark {
     background-color: #e5e7eb;
 }
@@ -88,7 +123,9 @@ button {
     display: flex;
     flex-direction: column;
 
-    width: 750px;
+    margin: 24px;
+
+    max-width: 750px;
 }
 
 .quote .text {
