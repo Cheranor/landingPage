@@ -79,6 +79,31 @@ button {
 .hero {
     background-color: #1F2937;
     color: #e5e7eb;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.left {
+    margin: 24px;
+    max-width: 400px;
+}
+
+.left .title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.left .text {
+    margin: 12px 0;
+}
+
+.right {
+    padding: 60px;
+    margin: 24px;
+    background-color: grey;
 }
 
 .information {
@@ -153,6 +178,7 @@ button {
     color: #e5e7eb;
 
     padding: 24px 48px;
+    margin: 24px;
 
     border-radius: 25px;
 }
