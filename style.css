@@ -168,10 +168,16 @@ button {
     margin: 24px 48px 0;
 }
 
+.signupContainer {
+    flex-direction: row;
+}
+
 .signup {
     display: flex;
+    flex-wrap: wrap;
+    flex: auto;
     align-items: center;
-    width: 600px;
+    max-width: 600px;
     justify-content: space-between;
 
     background-color: #3882f6;
@@ -179,6 +185,8 @@ button {
 
     padding: 24px 48px;
     margin: 24px;
+
+    gap: 24px;
 
     border-radius: 25px;
 }
